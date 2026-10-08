@@ -1,0 +1,18 @@
+{
+  "unit": "issue-2",
+  "run_id": "issue-2",
+  "trigger": "manual",
+  "state": "finishing",
+  "harness": "claude_code",
+  "started_at": "2026-10-08T18:40:41.658Z",
+  "updated_at": "2026-10-08T18:45:05.757Z",
+  "turns": 22,
+  "build_attempts": 1,
+  "cost_usd": 1.141189,
+  "cap_usd": 5,
+  "gate": "review",
+  "blocked_reason": null,
+  "stop_reason": null,
+  "pr_number": null,
+  "steer": null
+}

@@ -1,0 +1,27 @@
+{
+  "unit": "issue-2",
+  "work_type": "bug",
+  "tier": "api",
+  "tracker": {
+    "system": "github_issues",
+    "key": "issue-2",
+    "url": "https://github.com/randy-ctt/holo-todo-app/issues/2"
+  },
+  "repo": "holo-todo-app",
+  "branch": "issue-2",
+  "worktree_path": null,
+  "cli_version": "0.1.0",
+  "created_at": "2026-10-08T18:40:41.658Z",
+  "run_id": "issue-2",
+  "template": "bug",
+  "trigger": "manual",
+  "ai_assisted": false,
+  "harness": "none",
+  "phases": [],
+  "commits": [
+    "75872148d8d864ff3665e63f3d0d90adbff193a1"
+  ],
+  "artifacts": [],
+  "pr_number": null,
+  "completed_at": "2026-10-08T18:45:05.757Z"
+}
