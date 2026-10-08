@@ -6,5 +6,6 @@ export function renderTodos(): string {
 }
 
 export function renderRow(t: Todo): string {
-  return `- ${t.title}`;
+  const marker = t.done ? "[x]" : "[ ]";
+  return `- ${marker} ${t.title}`;
 }
