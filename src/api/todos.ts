@@ -16,10 +16,9 @@ export function addTodo(title: string): Todo {
 }
 
 // Toggle a todo's done flag.
-// NOTE: currently always sets done=true instead of flipping it — tracked as a bug.
 export function toggleTodo(id: string): Todo | undefined {
   const todo = TODOS[id];
   if (!todo) return undefined;
-  todo.done = true;
+  todo.done = !todo.done;
   return todo;
 }
